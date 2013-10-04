@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GameViewController.h"
+
 
 @implementation AppDelegate
 
@@ -19,6 +21,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    GameViewController *gameVC = [[GameViewController alloc] init];
+    self.window.rootViewController = gameVC;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

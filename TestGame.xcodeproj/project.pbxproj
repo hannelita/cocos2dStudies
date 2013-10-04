@@ -22,6 +22,9 @@
 		796C9B6917FA1E3F005560E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C9B4D17FA1E3F005560E7 /* CoreData.framework */; };
 		796C9B7117FA1E3F005560E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 796C9B6F17FA1E3F005560E7 /* InfoPlist.strings */; };
 		796C9B7317FA1E3F005560E7 /* TestGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C9B7217FA1E3F005560E7 /* TestGameTests.m */; };
+		796C9B7F17FA1F6E005560E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C9B7D17FA1F6E005560E7 /* GameViewController.m */; };
+		796C9B8017FA1F6E005560E7 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796C9B7E17FA1F6E005560E7 /* GameViewController.xib */; };
+		796C9B8317FA2097005560E7 /* Impossible.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C9B8217FA2097005560E7 /* Impossible.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		796C9B6E17FA1E3F005560E7 /* TestGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGameTests-Info.plist"; sourceTree = "<group>"; };
 		796C9B7017FA1E3F005560E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		796C9B7217FA1E3F005560E7 /* TestGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGameTests.m; sourceTree = "<group>"; };
+		796C9B7C17FA1F6E005560E7 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		796C9B7D17FA1F6E005560E7 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		796C9B7E17FA1F6E005560E7 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		796C9B8117FA2097005560E7 /* Impossible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Impossible.h; sourceTree = "<group>"; };
+		796C9B8217FA2097005560E7 /* Impossible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Impossible.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +125,14 @@
 			children = (
 				796C9B5817FA1E3F005560E7 /* AppDelegate.h */,
 				796C9B5917FA1E3F005560E7 /* AppDelegate.m */,
+				796C9B8117FA2097005560E7 /* Impossible.h */,
+				796C9B8217FA2097005560E7 /* Impossible.m */,
 				796C9B5E17FA1E3F005560E7 /* Images.xcassets */,
 				796C9B5B17FA1E3F005560E7 /* TestGame.xcdatamodeld */,
 				796C9B5017FA1E3F005560E7 /* Supporting Files */,
+				796C9B7C17FA1F6E005560E7 /* GameViewController.h */,
+				796C9B7D17FA1F6E005560E7 /* GameViewController.m */,
+				796C9B7E17FA1F6E005560E7 /* GameViewController.xib */,
 			);
 			path = TestGame;
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 			files = (
 				796C9B5417FA1E3F005560E7 /* InfoPlist.strings in Resources */,
 				796C9B5F17FA1E3F005560E7 /* Images.xcassets in Resources */,
+				796C9B8017FA1F6E005560E7 /* GameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796C9B7F17FA1F6E005560E7 /* GameViewController.m in Sources */,
 				796C9B5D17FA1E3F005560E7 /* TestGame.xcdatamodeld in Sources */,
 				796C9B5A17FA1E3F005560E7 /* AppDelegate.m in Sources */,
+				796C9B8317FA2097005560E7 /* Impossible.m in Sources */,
 				796C9B5617FA1E3F005560E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
